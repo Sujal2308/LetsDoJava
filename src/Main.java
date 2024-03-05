@@ -10,7 +10,7 @@ public class Main {
         System.out.println(c);
         name = "sujal bhugul";
         System.out.println(name);
-        System.out.println("Hello \'world\' ");
+        System.out.println("Hello world ");
         System.out.println("hello \n \bWorld");
         System.out.println("*");
         System.out.println("**");
