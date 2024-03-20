@@ -1,6 +1,4 @@
 package com.Arrays;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Palindrome {
