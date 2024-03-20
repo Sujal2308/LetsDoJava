@@ -15,14 +15,15 @@ public class MaxValue {
 
 
 //        Minimum value from the array without sort
-        int minValue = 0;
-        int upValue = 0;
-        for(int i = 0 ; i <sortArray.length ; i++){
-            if(sortArray[i]<minValue){
-                upValue = sortArray[i];
+     int[] arr = {67,20,2,3,100};
+        int smallestValue = arr[0];
+        for(int i = 0 ; i < arr.length ;i++){
+            if(arr[i] <= smallestValue){
+                smallestValue = arr[i];
             }
-            minValue = sortArray[i];
         }
-        System.out.println(upValue);
+        System.out.println("The smallest value is "+smallestValue);
+
     }
 }
+
