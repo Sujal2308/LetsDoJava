@@ -9,11 +9,11 @@ public class Vowels {
         int count = 0;
         char[] arr = {'a','e','i','o','u'};
         for(int i = 0 ; i<input.length() ; i++){
-            for(int j = 0 ; j< arr.length ; j++){
-                if(input.charAt(i)==arr[j]){
+            for (char c : arr) {
+                if (input.charAt(i) == c) {
                     count++;
                     break;
-            }
+                }
 
 
             }
