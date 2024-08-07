@@ -52,7 +52,7 @@ public class TypeConversions {
 //        int num3 = (int) (num1 * num2);
         // first product i.e 10.2 * 5.3 = 54.06
         // then (int) 54.06 = 54 getting stored
-        System.out.println((int) (num1 * num2)); //54
+        System.out.println((int) (num1 * num2)); //op : 54
 
 
    /* Note : 1)char to ASCII values in automatic;
